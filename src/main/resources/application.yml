@@ -1,0 +1,12 @@
+app:
+  id: ${spring.application.name}
+  version: @project.version@
+  sample:
+    chunk_size: 100
+    delimiter: ;
+    inputFile: classpath:/example_files/products.csv
+logging:
+  level:
+    root: INFO
+    io.netty: TRACE
+
